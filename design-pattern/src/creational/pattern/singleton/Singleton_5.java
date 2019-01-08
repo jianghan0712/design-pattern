@@ -17,6 +17,7 @@ package creational.pattern.singleton;
    
  */
 public class Singleton_5 {
+	//¾²Ì¬ÄÚ²¿Àà
 	private static class SingletonHodler{
 		private static final Singleton_5 INSTANCE = new Singleton_5();
 	}
@@ -24,6 +25,5 @@ public class Singleton_5 {
 	
 	public static final Singleton_5 getInstance() {
 		return SingletonHodler.INSTANCE;
-	}
-	
+	}	
 }

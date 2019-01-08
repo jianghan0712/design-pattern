@@ -13,8 +13,9 @@ getInstance() 的性能对应用程序很关键。
  */
 
 public class Singleton_4 {
-	private static Singleton_4 instance;
+	private volatile static Singleton_4 instance;
 	private Singleton_4() {}
+	
 	public static Singleton_4 getInstance() {
 		if(instance == null) {
 			synchronized (Singleton_4.class) {
