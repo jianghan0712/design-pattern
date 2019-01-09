@@ -4,7 +4,7 @@ public abstract class Shape implements Cloneable{
 	private String id;
 	protected String type;
 	
-	abstract void dram();
+	abstract void draw();
 	
 	public Object clone() {
 		Object clone = null;

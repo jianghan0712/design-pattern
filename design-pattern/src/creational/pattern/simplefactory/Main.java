@@ -27,7 +27,14 @@ FactoryPatternDemo，我们的演示类使用 ShapeFactory 来获取 Shape 对象。它将向 Shap
 */
 public class Main {
 	public static void main(String[] args) {
+		System.out.println("use reflect");
 		Square test = (Square)SharpFactory.getShape(Square.class);
-		test.dram();
+		test.draw();
+		
+		System.out.println("----------------------");
+		
+		System.out.println("use commom");
+		Square test2 = (Square)SharpFactory.getShape("Square");
+		test2.draw();
 	}
 }

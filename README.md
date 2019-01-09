@@ -41,11 +41,11 @@
 
         4.迭代器模式（Iterator Pattern）                  done
 
-        5.中介者模式（Mediator Pattern）
+        5.中介者模式（Mediator Pattern）                  done
 
-        6.备忘录模式（Memento Pattern）
+        6.备忘录模式（Memento Pattern）                   done
 
-        7.观察者模式（Observer Pattern）
+        7.观察者模式（Observer Pattern）                  done
 
         8.状态模式（State Pattern）
 

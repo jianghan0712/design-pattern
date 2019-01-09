@@ -32,13 +32,13 @@ public class Main {
 	      Shape shape1 = (Square)shapeFactory.getShape(Square.class);
 	 
 	      //调用 Circle 的 draw 方法
-	      shape1.dram();
+	      shape1.draw();
 	 
 	      //获取形状为 Rectangle 的对象
 	      Shape shape2 = (Rectangle)shapeFactory.getShape(Rectangle.class);
 	 
 	      //调用 Rectangle 的 draw 方法
-	      shape2.dram();
+	      shape2.draw();
 	 
 	      //获取颜色工厂
 	      AbstractFactory colorFactory = FactoryProducer.getFactory("COLOR");
