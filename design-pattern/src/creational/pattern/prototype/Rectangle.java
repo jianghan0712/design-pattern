@@ -9,5 +9,4 @@ public class Rectangle extends Shape{
 		// TODO Auto-generated method stub
 		System.out.println("Rectangle:dram()");
 	}
-
 }
